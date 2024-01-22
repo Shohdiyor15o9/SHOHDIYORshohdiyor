@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                },
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="container w-[90%]">
+    <header class="h-20 flex justify-between container flex-row items-center sticky top-0 bg-white z-10">
+        <div>
+            <img class="w-24 h-14"
+                src="https://eshikoyna.uz/wp-content/uploads/2023/04/cropped-photo_2023-04-05_12-46-59-removebg-preview.png"
+                alt="">
+        </div>
+        <div class="flex flex-col sm:flex-row">
+            <a class="text-xl ml-4 hover:underline mt-1" href="#BoshSahifa">Bosh Sahifa</a>
+            <a class="text-xl ml-4 hover:underline mt-1" href="#Mahsulotlar">Mahsulotlar</a>
+            <a class="text-xl ml-4 hover:underline mt-1" href="#Aloqa">Aloqa</a>
+            <a href="tel:+998909089477">
+                <button class="p-2 rounded-2xl hover:shadow-2xl hover:shadow-black">+998 90 908 94 77</button>
+            </a>
+        </div>
+    </header>
+    <section id="BoshSahifa" class="container relative">
+        <img class="absolute -z-10"
+            src="https://eshikoyna.uz/wp-content/uploads/2023/04/a01dxizyn5ije3kzn69r8yarjrzloxz5_c19p-sh_mnh4-dm.jpeg"
+            alt="">
+        <a href="tel:+998909089477">
+            <button
+                class="relative left-[550px] mt-[600px] bg-blue-900 w-48 h-16 text-white hover:bg-white hover:text-blue-900">Boglanish
+                →</button>
+        </a>
+    </section>
+    <section id="Mahsulotlar" class="container my-36 flex flex-row justify-between">
+        <div class="w-80 h-96 bg-slate-100">
+            <img class="hover:scale-110 w-80"
+                src="https://eshikoyna.uz/wp-content/uploads/2023/04/Untitled-design-13.png" alt="">
+            <p class="flex justify-center text-xl font-semibold mt-3">Eshik va Oyna</p>
+        </div>
+        <div class="w-80 h-96 bg-slate-100">
+            <img class="hover:scale-110 w-80"
+                src="https://eshikoyna.uz/wp-content/uploads/2023/04/Untitled-design-14.png" alt="">
+            <p class="flex justify-center text-xl font-semibold mt-3">Peregarodka</p>
+        </div>
+        <div class="w-80 h-96 bg-slate-100">
+            <img class="hover:scale-110 w-80" src="https://eshikoyna.uz/wp-content/uploads/2023/04/1.png" alt="">
+            <p class="flex justify-center text-xl font-semibold mt-3">Podokolniklar</p>
+        </div>
+        <div class="w-80 h-96 bg-slate-100">
+            <img class="hover:scale-110 w-80" src="https://eshikoyna.uz/wp-content/uploads/2023/04/2.png" alt="">
+            <p class="flex justify-center text-xl font-semibold mt-3">Setka</p>
+        </div>
+    </section>
+    <section class="flex container flex-row bg-slate-100 h-[400px] justify-around items-center">
+        <div class="w-[40%]">
+            <span class="text-4xl">
+                Biz Haqimizda
+            </span>
+            <p class="text-lg">
+                «RUSTAM PROFIL» xususiy korxonasi 2017 yilda tashkil topgan bo’lib, bugungi kunda qurilish sohasida
+                kerakli bo’lgan profnastil, gipsokarton uchun profillar ishlab chiqarish bilan bir qatorda alyumin yoki
+                plastik eshik va oynalar yasash va o’rnatish ishlarini ham amalga oshirib kelmoqda. Xizmatlar katta
+                tajribaga ega bo’lgan mutaxassislar tomonidan bajariladi. Mahsulotlarimiz sifatli bo’lishi uchun biz
+                yurtimizda mashxur bo’lgan AKFA, IMZO va ENGELBERG kabi brendga ega profillarini ishlatamiz
+            </p>
+        </div>
+        <div class="w-[40%]">
+            <img class="w-1/2 hover:scale-110"
+                src="https://fascinating-rabanadas-ca4dbc.netlify.app/static/media/logo.3f1e6ffd88e49851599d.png"
+                alt="">
+        </div>
+    </section>
+    <section class="container flex flex-col text-center">
+        <h3 class="text-5xl my-10">Nega bizni tanlashinnigiz kerak</h3>
+        <div class="flex flex-row justify-around">
+            <div class="flex flex-col bg-slate-100 w-40">
+                <div>
+                    <img class="w-32 mx-auto hover:scale-110"
+                        src="https://eshikoyna.uz/wp-content/uploads/2023/04/group-2.png" alt="">
+                </div>
+                <div>
+                    <span class="text-xl">Tajriba</span>
+                    <p>Xizmatlar katta tajribaga ega bo’lgan mutaxassislar tomonidan bajariladi</p>
+                </div>
+            </div>
+            <div class="flex flex-col bg-slate-100 w-40">
+                <div>
+                    <img class="w-32 mx-auto hover:scale-110"
+                        src="https://fascinating-rabanadas-ca4dbc.netlify.app/static/media/stats2.90a5b51610f046635a36.png"
+                        alt="">
+                </div>
+                <div>
+                    <span class="text-xl">Individual Yondashuv</span>
+                    <p>Har bir mijozga individual ravishda yondashuv</p>
+                </div>
+            </div>
+            <div class="flex flex-col bg-slate-100 w-40">
+                <div>
+                    <img class="w-32 mx-auto hover:scale-110"
+                        src="https://fascinating-rabanadas-ca4dbc.netlify.app/static/media/stats3.a24c94940255e3b5445f.png"
+                        alt="">
+                </div>
+                <div>
+                    <span class="text-xl">Tezkorlik</span>
+                    <p>Kelishilgan muddatlardan kechiktirmay ishlar yakunlanadi</p>
+                </div>
+            </div>
+            <div class="flex flex-col bg-slate-100 w-40">
+                <div>
+                    <img class="w-32 mx-auto hover:scale-110"
+                        src="https://fascinating-rabanadas-ca4dbc.netlify.app/static/media/stats4.779b7e49ed371ac2f154.png"
+                        alt="">
+                </div>
+                <div>
+                    <span class="text-xl">Nazorat</span>
+                    <p>Yasashdan o’rnatilgunga qadar sifatli amalga oshirilishi nazorat qilinadi va ta’minlanadi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="flex container flex-row-reverse bg-slate-100 h-[400px] justify-around items-center my-10">
+        <div class="w-[40%] flex-col-reverse">
+            <a href="tel:+998909089477">
+                <button class="bg-blue-900 w-48 h-16 text-white hover:bg-white hover:text-blue-900">Boglanish
+                    →</button>
+            </a>
+            <p class="text-lg">
+                Bizning korxonada turli hil o’lchamdagi eshik va oynalar ishlab chiqariladi. Undan tashqari, hozirgi
+                zamonaviy ofislar uchun xonalarda devor o’rniga qalin shishalar yasash va o’rnatish xizmatlari ham
+                mavjud.
+            </p>
+        </div>
+        <div class="w-[40%]">
+            <img class="hover:scale-110"
+                src="https://fascinating-rabanadas-ca4dbc.netlify.app/static/media/cardImg1.80e02a04fe939120577d.jpg"
+                alt="">
+        </div>
+    </section>
+    <section class="flex container flex-row bg-slate-100 h-[400px] justify-around items-center my-10">
+        <div class="w-[40%] flex-col-reverse">
+            <a href="tel:+998909089477">
+                <button class="bg-blue-900 w-48 h-16 text-white hover:bg-white hover:text-blue-900">Boglanish
+                    →</button>
+            </a>
+            <p class="text-lg">
+                Bizning korxona o’z zimmasiga yuklatilgan vazifalarni belgilangan muddatlarda tez va sifatli bajarib
+                berilishi, romlar uchun eng sifatli homashyolari ishlatilishi hamda mijozlarga qulay shartlar asosida
+                ish olib borilishi bilan ajralib turadi.
+            </p>
+        </div>
+        <div class="w-[40%]">
+            <img class="hover:scale-110"
+                src="https://fascinating-rabanadas-ca4dbc.netlify.app/static/media/cardImg2.8e106660edd257c2f60c.jpg"
+                alt="">
+        </div>
+    </section>
+    <section id="Aloqa" class="container flex flex-row text-center justify-around">
+        <div class="w-[30%] h-40 bg-slate-100 flex flex-row justify-between">
+            <img class="hover:scale-110 w-40"
+                src="https://fascinating-rabanadas-ca4dbc.netlify.app/static/media/Envelope.4d8a26d40747187cca18255c9cef8cb6.svg"
+                alt="">
+            <div class="flex flex-col">
+                <h6 class="text-xl font-semibold">Elektron Pochta</h6>
+                <p class="my-4">Barcha o’zingizni qiziqtirgan savollaringizni pochta manzilimizga jo’natishingiz mumkin
+                </p>
+                <a href="mailto:juraev.shuhrat1988@gmail.com">juraev.shuhrat1988@gmail.com</a>
+            </div>
+        </div>
+        <div class="w-[30%] h-40 bg-slate-100 flex flex-row justify-between">
+            <img class="hover:scale-110 w-40"
+                src="https://fascinating-rabanadas-ca4dbc.netlify.app/static/media/Phone.befdd04d8ea4b702f11b8c7f0ddcfe4c.svg"
+                alt="">
+            <div class="flex flex-col">
+                <h6 class="text-xl font-semibold">Telefon</h6>
+                <p class="my-4">Buyurtma uchun quyidagi nomerlarimizga aloqaga chiqishingiz mumkin</p>
+                <a href="tel:+998909089477">+998 90 908 94 77</a>
+            </div>
+        </div>
+        <div class="w-[30%] h-40 bg-slate-100 flex flex-row justify-between">
+            <img class="hover:scale-110 w-40"
+                src="https://fascinating-rabanadas-ca4dbc.netlify.app/static/media/MapPin.f93af3f20d58f1bcaae79a4e2e8dc02f.svg"
+                alt="">
+            <div class="flex flex-col">
+                <h6 class="text-xl font-semibold">bizning Manzil</h6>
+                <p class="my-4">Manzilimizga soat 09:00 dan 19:00 gacha tashrif buyurishingiz mumkin</p>
+                <a href="#Karta">Karta</a>
+            </div>
+        </div>
+    </section>
+    <section id="Karta" class="container my-10">
+        <iframe
+            src="https://yandex.ru/map-widget/v1/?lang=en_FR&amp;scroll=true&amp;um=constructor%3A3502503a3edfd6349d00b8326f079ad53fb89d4484e8d4fecd7fbb8aada67888"
+            frameborder="0" allowfullscreen="true" width="100%" height="500px" style="display: block;"></iframe>
+    </section>
+    <footer class="container flex flex-col">
+        <div class="flex flex-row justify-around items-center">
+            <div>
+                <img class="hover:scale-110"
+                    src="https://eshikoyna.uz/wp-content/uploads/2023/04/cropped-photo_2023-04-05_12-46-59-removebg-preview.png"
+                    alt="">
+            </div>
+            <div>
+                <a href="#Karta">Toshkent shahar, Mirzo Ulug’bek tumani,<br>
+                    Alisherobod MFY, Nurli zamin ko’chasi, 83 – А</a>
+            </div>
+            <div>
+                <a href="tel:+998909089477">
+                    <button class="p-2 rounded-2xl hover:shadow-2xl hover:shadow-black">+998 90 908 94 77</button>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <div class="flex justify-center">
+            © 2023 Eshikoyna.Uz | Powered By Taskin Agency
+        </div>
+    </footer>
+</body>
+
+</html>
